@@ -6,6 +6,7 @@ module.exports = {
       backgroundImage: {
         nature: "url('/images/Vector.png')",
         about: "url('/images/about_bg.png')",
+        contact: "url('/images/contact.png')",
       },
     },
   },
