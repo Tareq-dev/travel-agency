@@ -9,35 +9,43 @@
     <body>
         <main class>
             <nav
-                class="container mx-auto flex justify-between h-20 items-center">
+                class="container mx-auto flex justify-between h-20 items-center px-8 md:px-0">
                 <h2 class="text-2xl font-bold">Logo</h2>
-                <ul class="flex justify-between gap-6">
+                <ul class="md:flex justify-between gap-6 hidden">
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="w-6 h-6 md:hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                </svg>
+
             </nav>
             <header class="py-10 bg-[#292D33] text-white px-8">
-                <h1 class="text-6xl mb-6">Travel With Us</h1>
-                <p class="w-2/5 text-sm">Some of life’s usual rules go out of
+                <h1 class="text-4xl md:text-6xl mb-6">Travel With Us</h1>
+                <p class="md:w-2/5 text-sm">Some of life’s usual rules go out of
                     the
                     window when you’re
                     travelling. You don’t have to set your alarm clock and you
                     don’t have to worry about ironing, washing the dishes or any
                     of that other boring grown-up stuff.</p>
 
-                <div class="flex justify-center gap-4 py-10">
-                    <img class="-mt-80 object-contain" src="./images/s1.png" alt>
+                <div class="px-8 md:px-0 md:flex justify-center gap-4 py-10">
+                    <img class="md:-mt-80 object-contain" src="./images/s1.png"
+                        alt>
                     <div class>
                         <img class="object-contain" src="./images/l1.png" alt>
                         <img class="mt-4" src="./images/l1.png" alt>
                     </div>
-                    <div class="mt-60">
+                    <div class="md:mt-60">
                         <img class="object-contain" src="./images/l1.png" alt>
                         <img class="mt-4" class="object-contain"
                             src="./images/l1.png" alt>
                     </div>
-                    <div class="mt-40">
+                    <div class="md:mt-40">
                         <div class="py-8 mx-4">
                             <p>Take risks</p>
                             <p>Try somethings new</p>
@@ -52,12 +60,14 @@
             </header>
 
             <!------------------ nature------------>
-            <section class="flex justify-between mx-16 py-20">
+            <section class="md:flex justify-between md:mx-16 md:py-20">
                 <div class="flex justify-center mx-auto py-20">
                     <div class="text-center">
                         <h2 class="text-5xl font-semibold"> The S​ecrets <br> of
                             Nature</h2>
-                        <p class="px-24 py-4 text-2xl font-thin">Sample text.
+                        <p
+                            class=" px-4 md:px-24 py-4 text-xl md:text-2xl font-thin">Sample
+                            text.
                             Lorem ipsum
                             dolor
                             sit
@@ -70,23 +80,23 @@
                             More..</button>
                     </div>
                 </div>
-                <div>
-                    <div
-                        class="w-[612px] h-[524px] bg-no-repeat flex justify-center items-center bg-contain bg-center bg-nature">
-                        <img src="./images/nature.png" alt>
-                    </div>
+                <div
+                    class="w-[350px] md:w-[612px] h-[400px] md:h-[524px] bg-no-repeat flex justify-center items-center bg-contain bg-center bg-nature mx-4 md:mx-0">
+                    <img class="w-[300px] md:w-auto"
+                        src="./images/nature.png" alt>
                 </div>
             </section>
             <!------------------- About us ------------>
             <section
-                class="w-full h-[960px] bg-no-repeat bg-cover bg-center bg-about py-16 px-20">
-                <div class="flex">
+                class="w-full md:h-[960px] bg-no-repeat bg-cover bg-center md:bg-about py-16 px-4 md:px-20">
+                <div class="md:flex">
                     <div>
-                        <img class=" "
+                        <img class
                             src="./images//mountain1.png"
                             alt>
-                        <div class="bg-black py-10 px-4 w-[380px]">
-                            <img class="w-20" src="./images/quotation.png" alt>
+                        <div class="bg-black py-10 px-4 md:w-[380px]">
+                            <img class="md:w-20" src="./images/quotation.png"
+                                alt>
                             <p
                                 class=" text-white text-3xl py-8">Happiness
                                 is not <br>
@@ -95,11 +105,11 @@
                                 it.</p>
                         </div>
                     </div>
-                    <div class=" md:mt-8 ">
-                        <img class="object-contain "
+                    <div class="md:mt-8">
+                        <img class
                             src="./images//mountain2.png"
                             alt>
-                        <div class="bg-[#E5E5E5] py-10 w-[361px] px-4">
+                        <div class="bg-[#E5E5E5] py-10 md:w-[361px] px-4">
                             <h3 class="text-4xl font-semibold">About Us</h3>
                             <p
                                 class=" text-xl py-4 text-justify">Happiness
@@ -119,9 +129,9 @@
                 </div>
             </section>
             <!------------------- Unique ------------>
-            <section class="flex justify-between mx-16 py-28">
-                <div class="w-1/3">
-                    <div class="mt-[450px]">
+            <section class="md:flex justify-between mx-4 md:mx-16 py-8 md:py-28">
+                <div class="md:w-1/3">
+                    <div class="md:mt-[450px]">
                         <h2 class="text-5xl font-semibold"> Every traveler <br>
                             is unique</h2>
                         <p class="py-4 text-sm font-thin">Duis aute irure
@@ -135,9 +145,9 @@
                             More</button>
                     </div>
                 </div>
-                <div class="w-2/3 flex justify-center">
+                <div class="md:w-2/3 flex justify-center">
                     <div
-                        class="w-[612px] h-[524px] bg-no-repeat flex justify-center items-center bg-contain bg-center bg-nature">
+                        class="w-[300px] md:w-[350px] h-[444px] md:h-[524px] bg-no-repeat flex justify-center items-center bg-contain bg-center bg-nature">
                         <img src="./images/nature.png" alt>
                     </div>
                 </div>
@@ -145,9 +155,10 @@
 
             <!-- contact -->
             <section
-                class="w-full h-[800px] bg-no-repeat bg-cover bg-center bg-contact py-16 px-20">
-                <div class="flex justify-between m-12 h-[600px] bg-[#F2F2F2]">
-                    <div class="flex justify-center items-center w-1/2">
+                class="w-full  md:h-[800px] bg-no-repeat bg-cover bg-center bg-contact py-16 md:px-20">
+                <div
+                    class="md:flex justify-between m-4 md:m-12 md:h-[600px] bg-[#F2F2F2]">
+                    <div class="flex justify-center items-center md:w-1/2">
                         <div>
                             <img class="w-[255px] h-[255px]"
                                 src="/images/mountain1.png" alt>
@@ -157,10 +168,11 @@
                             <p class="text-center text-xl">Image From Freepik</p>
                         </div>
                     </div>
-                    <div class="w-1/2 flex justify-center items-center px-6">
+                    <div
+                        class="md:w-1/2 md:mb-0 flex justify-center items-center py-6 md:py-0 px-6">
                         <div>
                             <p
-                                class="text-center leading-8	mb-12 text-[#808080] text-[18px]">Pharetra
+                                class="text-center leading-8	mb-8 md:mb-12 text-[#808080] text-[18px]">Pharetra
                                 magna
                                 ac placerat
                                 vestibulum lectus mauris ultrices. Ut pharetra
@@ -197,14 +209,15 @@
             <footer class="bg-[#333333] text-white py-16 text-center">
                 <p>Sample text. Click to select the Text Element.</p>
                 <div class="flex justify-center items-center">
-                    <ul class="flex gap-4 mt-10">
+                    <ul class="md:flex gap-4 mt-10">
                         <li><a href class="text-[#ADCCE9]">Website Templates</a></li>
                         <li>created with</li>
                         <li><a class="text-[#ADCCE9]" href>Website Builder
                                 Software</a></li>
                     </ul>
-
                 </div>
+                <p class="text-center text-xs mt-4">Created by tareq</p>
+
             </footer>
         </main>
     </body>
