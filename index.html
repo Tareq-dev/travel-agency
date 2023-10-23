@@ -4,157 +4,118 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link href="/css/tailwind.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/tailwind.css">
     </head>
     <body>
-        <nav class="bg-slate-100 h-28">
-<div class="flex items-center justify-between py-6 pr-8">
-    <p class="font-bold font-serif text-4xl md:text-5xl pl-8">Travel <span class="text-5xl md:text-7xl text-green-500">Z</span>eo</p>
-    <div class="border-4">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-          
-    </div>
-    <ul class="md:flex text-2xl font-bold hidden text-green-600 md-block">
-        <li class="px-8 "><a href="#">Home</a></li>
-        <li class="px-8 "><a href="#">About</a></li>
-        <li class="px-8 "><a href="#">Contact</a></li>
-    </ul>
-</div>
-        </nav>
-        <header class="md:h-[1000px] bg-black text-white">
-            <div class="py-4 mx-2 md:px-8">
-                <h1 class="text-6xl md:text-7xl font-extrabold text-green-500">
-                    Travel With Us
-                </h1>
-                <p class="md:w-[700px] md:text-2xl py-8 text-justify px-2">Some
-                    of life’s usual rules go out of the window when you’re
+        <main class>
+            <nav
+                class="container mx-auto flex justify-between h-20 items-center">
+                <h2 class="text-2xl font-bold">Logo</h2>
+                <ul class="flex justify-between gap-6">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <header class="py-10 bg-[#292D33] text-white px-8">
+                <h1 class="text-6xl mb-6">Travel With Us</h1>
+                <p class="w-2/5 text-sm">Some of life’s usual rules go out of
+                    the
+                    window when you’re
                     travelling. You don’t have to set your alarm clock and you
                     don’t have to worry about ironing, washing the dishes or any
                     of that other boring grown-up stuff.</p>
-            </div>
-            <section class="md:flex justify-center items-center px-4 md:px-16">
-                <img class="h-[312px] w-full md:w-[242px] md:mx-2"
-                    src="/image/1.png" alt>
-                <div>
-                    <img class="md:mx-2 mt-2 md:mt-0 mb-2 w-full md:w-[242px]"
-                        src="/image/1.png" alt>
-                    <img class="md:mx-2 mt-2 w-full md:w-[242px]"
-                        src="/image/1.png" src="/image/1.png" alt>
-                </div>
-                <div class="pt-2 md:pt-20">
-                    <img class="md:mx-2 mb-2 w-full md:w-[242px]"
-                        src="/image/1.png" alt>
-                    <img class="md:mx-2 mt-2 w-full md:w-[242px]"
-                        src="/image/1.png" alt>
 
+                <div class="flex justify-center gap-4 py-10">
+                    <img class="-mt-80 object-contain" src="./images/s1.png" alt>
+                    <div class>
+                        <img class="object-contain" src="./images/l1.png" alt>
+                        <img class="mt-4" src="./images/l1.png" alt>
+                    </div>
+                    <div class="mt-60">
+                        <img class="object-contain" src="./images/l1.png" alt>
+                        <img class="mt-4" class="object-contain"
+                            src="./images/l1.png" alt>
+                    </div>
+                    <div class="mt-40">
+                        <div class="py-8 mx-4">
+                            <p>Take risks</p>
+                            <p>Try somethings new</p>
+                            <p>Make connections</p>
+                            <p>Tread lightly</p>
+                            <p>Give something back</p>
+                        </div>
+                        <img class="object-contain" src="./images/s1.png" alt>
+
+                    </div>
                 </div>
-                <div>
-                    <ol
-                        class="md:pb-8 md:pl-4 py-4 text-xl text-center md:text-start">
-                        <li>1. Some of life’s usual</li>
-                        <li>2. Some of life’s usual</li>
-                        <li>3. Some of life’s usual</li>
-                    </ol>
-                    <img class="h-[312px] md:mx-2 w-full md:w-[242px]  "
-                        src="/image/1.png" alt>
-                </div>
-            </section>
-        </header>
-        <main>
-            <section class="md:flex my-34 justify-center items-center md:px-28">
-                <div class="text-center">
-                    <h2 class="text-3xl md:text-5xl py-8 font-bold">The S​ecrets of Nature</h2>
-                    <p class="text-xl md:text-3xl md:py-4 px-8 md:px-24">
-                        Sample text. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit nullam nunc justo sagittis suscipit
-                        ultrices.
-                    </p>
-                    <p class="text-xl mt-8">Image from freepik</p>
-                    <div>
+            </header>
+
+            <!------------------ nature------------>
+            <section class="flex justify-between mx-16 py-20">
+                <div class="flex justify-center mx-auto py-20">
+                    <div class="text-center">
+                        <h2 class="text-5xl font-semibold"> The S​ecrets <br> of
+                            Nature</h2>
+                        <p class="px-24 py-4 text-2xl font-thin">Sample text.
+                            Lorem ipsum
+                            dolor
+                            sit
+                            amet, consectetur
+                            adipiscing elit nullam nunc justo sagittis suscipit
+                            ultrices.</p>
+                        <p class="py-6 text-xl">Image from Freepik</p>
                         <button
-                            class="bg-black px-4 py-2 text-white md:text-3xl rounded-md mt-10">learn
-                            more
-                        </button>
-
+                            class="my-4 text-2xl text-white bg-black px-4 py-2">Learn
+                            More..</button>
                     </div>
                 </div>
-                <div class="w-full mt-8 md:mt-0 bg-[url('/image/blob.png')] h-[500px] bg-center flex justify-center items-center bg-cover bg-no-repeat">
-                    <img class="w-[350px] md:w-[420px] h-[300px] md:h-[380px]" src="/image/3.png" alt="">
+                <div>
+                    <div
+                        class="w-[612px] h-[524px] bg-no-repeat flex justify-center items-center bg-contain bg-center bg-nature">
+                        <img src="./images/nature.png" alt>
                     </div>
                 </div>
             </section>
-            <section class="bg-[url('/image/bg-2.png')] bg-center bg-cover bg-no-repeat md:h-[900px] px-8 md:px-16 mb-8">
-<div class="md:flex justify-center items-center">
-<div class="">
-    <img class="w-full" src="./image/4.png" alt="">
-   <div class="bg-black pl-4 pt-8 w-full">
-    <span>
-        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g id="Frame" clip-path="url(#clip0_2_1041)">
-        <path id="Vector" d="M55.9998 6.35986H46.3998C41.9871 6.35986 38.4 9.95611 38.4 14.3728V23.9878C38.4 28.4039 41.9871 32.0001 46.3998 32.0001H55.9998C56.5471 32.0001 57.0814 31.9426 57.6 31.8364V38.4103C57.6 45.4802 51.859 51.2302 44.8002 51.2302H41.5998C39.8303 51.2302 38.4 52.6662 38.4 54.435C38.4 56.2043 39.8303 57.6404 41.5998 57.6404H44.8002C55.3887 57.6404 64.0002 49.0154 64.0002 38.4103V14.3728C64.0002 9.95611 60.4131 6.35986 55.9998 6.35986Z" fill="white"/>
-        <path id="Vector_2" d="M17.5998 6.35986H7.9998C3.58711 6.35986 0 9.95611 0 14.3728V23.9878C0 28.4039 3.58711 32.0001 7.9998 32.0001H17.5998C18.1471 32.0001 18.6814 31.9426 19.2 31.8364V38.4103C19.2 45.4802 13.459 51.2302 6.4002 51.2302H3.1998C1.43027 51.2302 0 52.6662 0 54.435C0 56.2043 1.43027 57.6404 3.1998 57.6404H6.4002C16.9887 57.6404 25.6002 49.0154 25.6002 38.4103V14.3728C25.6002 9.95611 22.0131 6.35986 17.5998 6.35986Z" fill="white"/>
-        </g>
-        <defs>
-        <clipPath id="clip0_2_1041">
-        <rect width="64" height="64" fill="white"/>
-        </clipPath>
-        </defs>
-        </svg>
-        </span>
-    <p class="text-4xl text-white h-72 w-80 pt-10">
-        Happiness is not at the top of the mountains but in how to climb it.
-    </p>
-   </div>
-</div>
-<div>
-    <img class="w-full" src="/image//5.png" alt="">
-    <div class="px-4 bg-slate-200">
-    <h2 class="text-5xl font-bold py-4">About Us</h2>
-    <p class="py-8 text-2xl md:w-80 w-72 pt-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p class="text-xl">Image from freepik</p>
-    <button class="bg-black text-white px-2 py-2 my-6">learn more..</button>
-    </div>
-
-</div>
-<img  src="/image/6.png" class="h-96 w-full md:w-auto" alt="" />
-</div>
-            </section>
-            <section class="bg-[url('/image/bg-3.png')] md:h-[1200px] py-8 md:flex justify-center items-center px-8 bg-center bg-cover bg-no-repeat">
-
-                   <div class="md:w-60">
-                    <div class="bg-red-400 text-black md:w-60 p-4 mt-20">
-                        <h3 class="text-2xl font-bold">Nature Tours</h3>
-                    <p class="py-4">Fringilla ut morbi tincidunt augue interdum velit euismod in. Vel pharetra vel turpis nunc eget. Vel pretium lectus quam id leo in vitae turpis massa. Nulla facilisi cras fermentum odio eu feugiat pretium.</p>
-                    <button class="px-2 py-2 bg-black text-white"> Learn More</button>
+            <!-- About us -->
+            <section
+                class="w-full h-[960px] bg-no-repeat bg-cover bg-center bg-about py-16 px-20">
+                <div class="flex">
+                    <div>
+                        <img class=" "
+                            src="./images//mountain1.png"
+                            alt>
+                        <div class="bg-black py-10 px-4 w-[380px]">
+                            <img class="w-20" src="./images/quotation.png" alt>
+                            <p
+                                class=" text-white text-3xl py-8">Happiness
+                                is not <br>
+                                at the top of the mountains <br> but in how to
+                                climb
+                                it.</p>
+                        </div>
                     </div>
-                    <img class="w-full" src="/image/1.png" alt="">
-                </div>
-               <div class="md:w-60">
-                <img class="w-full md:w-96 h-96" src="image/1.png" alt="">
-                <img class="w-full md:w-96 h-96" src="image/1.png" alt="">
-               </div>
-               <div class=" w-full md:w-60 md:mt-20">
-                <img class="w-full md:w-60" src="/image/3.png" alt="">
-                <div class="bg-fuchsia-400 md:bg-white p-4">
-                    <h5 class="text-xl font-bold ">Exclusive deals</h5>
-                <p>The entire crew deserves an unforgettable vacation. When searching for the perfect accommodations, use the family-friendly badge to discover hotels that provide extra amenities for kids.</p>
-                <button class="px-2 py-2 bg-black text-white my-8 mx-8">View All</button>
-                </div>
-               </div>
-            </section>
-
-            <section class="flex">
-                <div class="bg-black w-1/2 p-8 text-white">
-                    <h5 class="text-xl font-bold ">Exclusive deals</h5>
-                <p class="">The entire crew deserves an unforgettable vacation. When searching for the perfect accommodations, use the family-friendly badge to discover hotels that provide extra amenities for kids.</p>
-                <button class="px-2  py-2 bg-white text-black my-8 mx-8">View All</button>
-                </div>
-                <div class="bg-green-400 p-8 w-1/2 text-white">
-                    <h5 class="text-xl font-bold ">Exclusive deals</h5>
-                <p class="">The entire Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione velit, facilis aliquid eaque reiciendis blanditiis itaque? Voluptatem exercitationem aspernatur dolorem iste, officiis nam corporis molestias dolore facere minima, vel recusandae. crew deserves Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem ut voluptatem illo voluptate assumenda, possimus nesciunt consectetur, impedit quaerat nostrum quae placeat magnam facere, maxime tenetur unde excepturi perferendis eaque. an unforgettable vacation. When searching for the perfect accommodations, use the family-friendly badge to discover hotels that provide extra amenities for kids.</p>
-                <button class="px-2  py-2 bg-white text-black my-8 mx-8">View All</button>
+                    <div class=" md:mt-8 ">
+                        <img class="object-contain "
+                            src="./images//mountain2.png"
+                            alt>
+                        <div class="bg-[#E5E5E5] py-10 w-[361px] px-4">
+                            <h3 class="text-4xl font-semibold">About Us</h3>
+                            <p
+                                class=" text-xl py-4 text-justify">Happiness
+                                Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat
+                                cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.
+                            </p>
+                            <p class="py-2"> Image from freepik</p>
+                            <button
+                                class="my-4 text-2xl text-white bg-black px-4 py-2">Learn
+                                More..</button>
+                        </div>
+                    </div>
+                    <img class="object-contain" src="./images/mountain1.png" alt>
                 </div>
             </section>
         </main>
